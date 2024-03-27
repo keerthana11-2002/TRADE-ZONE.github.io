@@ -1,0 +1,333 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Poppins', sanserif;
+}
+
+.navbar {
+  color: gray;
+  font-size: 25px;
+  font-style: oblique;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 2px;
+  box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+}
+
+.navbar span {
+  color: green;
+  font-size: 80px;
+  font-style: italic;
+
+}
+
+.navbar-links {
+  display: flex;
+  column-gap: 20px;
+}
+
+.navbar-links a {
+  text-decoration: none;
+  color: grey;
+}
+
+.navbar-links a:hover {
+  text-decoration: underline;
+  color: #1d1d1c;
+}
+
+.navbar-menu-toggle {
+  display: none;
+}
+
+.side-navbar {
+  background-color: rgb(69, 144, 69);
+  color: white;
+  width: 50%;
+  height: 100%;
+  top: 0;
+  left: -60%;
+  padding: 20px;
+  position: fixed;
+  transition: 2s;
+
+}
+
+.side-navbar-link {
+  margin-bottom: 30px;
+  font-size: 20px;
+}
+
+.side-navbar-links a:hover {
+  text-decoration: none;
+  color: white;
+  font-size: 25px;
+}
+
+.header {
+  display: flex;
+  justify-content: center;
+  padding: 50px;
+  gap: 50px;
+}
+
+.header h1 {
+  font-size: 5 0px;
+}
+
+.header p {
+  font-size: 25px;
+}
+
+.trade-btn {
+  padding-top: 15px;
+  padding-bottom: 15px;
+  padding-left: 20px;
+  padding-right: 20px;
+  background-color: green;
+  font-size: 18px;
+  margin: 20px;
+  color: white;
+  border: none;
+
+}
+
+.service {
+  padding: 20px;
+}
+
+.service-container1 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.service-container2 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 10px;
+}
+
+.service-container2 div {
+  border-radius: 5px;
+  background-color: #F2F4F7;
+  padding: 10px;
+}
+
+.newarrival {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.newarrival-container {
+  position: relative;
+  flex-basis: 20%;
+}
+
+.newarrival button {
+  padding-left: 10%;
+  padding-right: 10%;
+  padding-top: 5%;
+  padding-bottom: 5%;
+  margin-top: 10px;
+  color: #1D232C;
+  position: absolute;
+  top: 50%;
+  left: 18%;
+  border-radius: 10px;
+  border: none;
+}
+
+.footer {
+  padding: 40px;
+  margin-top: 20px;
+  background-color: green;
+  color: white;
+}
+
+.product-container {
+  margin: 20px;
+}
+
+.product-search {
+  padding: 10px;
+  width: 80%;
+  border: solid 2px black;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-radius: 20px;
+  margin: auto;
+}
+
+.product-search input {
+  border: none;
+  width: 100%;
+  background-color: transparent;
+}
+
+.product-search input:focus {
+  outline: none;
+
+}
+
+.product {
+  padding: 20px;
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.product-box {
+  text-align: center;
+  flex-basis: 20%;
+}
+
+.product-box img {
+  border-radius: 8px;
+}
+
+.form-container {
+  border: solid 2px black;
+  margin: 20px;
+  padding: 5px;
+
+}
+
+.reg {
+  font-size: 25px;
+  margin-bottom: 15px;
+  text-align: center;
+  text-decoration-line: underline;
+
+}
+
+.form-container {
+  padding: 16px;
+  display: block;
+}
+
+.psw {
+  width: 100%;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  display: inline-block;
+  border: none;
+  background: #f1f1f1;
+}
+
+.psw1 {
+  width: 100%;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  display: inline-block;
+  border: none;
+  background: #f1f1f1;
+}
+
+
+.name {
+  width: 100%;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  display: inline-block;
+  border: none;
+  background: #f1f1f1;
+}
+
+.mail {
+  width: 100%;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  display: inline-block;
+  border: none;
+  background: #f1f1f1;
+}
+
+.btn {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-right: 20px;
+  padding-left: 20px;
+  background-color: green;
+  border: none;
+  color: white;
+  font-size: 15px;
+  cursor: pointer;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width:700px) {
+  .navbar-menu-toggle {
+    display: block;
+  }
+
+  .navbar-links {
+    display: none;
+  }
+
+  .image1 {
+    display: none;
+  }
+
+  .service-container1 {
+    display: none;
+  }
+
+  .service-container2 div {
+    flex-direction: column;
+  }
+}
